@@ -18,5 +18,6 @@ namespace ProyectoGrupo4.Vistas
             InitializeComponent();
             LoginController controlador = new LoginController(this);
         }
+
     }
 }
