@@ -49,12 +49,14 @@ namespace ProyectoGrupo4.Vistas
             this.label6 = new System.Windows.Forms.Label();
             this.GeneroTextBox = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.ClienteDataGridView)).BeginInit();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // CancelarButton
             // 
-            this.CancelarButton.Location = new System.Drawing.Point(666, 438);
+            this.CancelarButton.Location = new System.Drawing.Point(727, 321);
             this.CancelarButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.CancelarButton.Name = "CancelarButton";
             this.CancelarButton.Size = new System.Drawing.Size(128, 36);
@@ -64,7 +66,7 @@ namespace ProyectoGrupo4.Vistas
             // 
             // EliminarButton
             // 
-            this.EliminarButton.Location = new System.Drawing.Point(530, 438);
+            this.EliminarButton.Location = new System.Drawing.Point(591, 321);
             this.EliminarButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.EliminarButton.Name = "EliminarButton";
             this.EliminarButton.Size = new System.Drawing.Size(128, 36);
@@ -74,7 +76,7 @@ namespace ProyectoGrupo4.Vistas
             // 
             // GuardarButton
             // 
-            this.GuardarButton.Location = new System.Drawing.Point(395, 438);
+            this.GuardarButton.Location = new System.Drawing.Point(457, 321);
             this.GuardarButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.GuardarButton.Name = "GuardarButton";
             this.GuardarButton.Size = new System.Drawing.Size(128, 36);
@@ -84,7 +86,7 @@ namespace ProyectoGrupo4.Vistas
             // 
             // NuevoButton
             // 
-            this.NuevoButton.Location = new System.Drawing.Point(123, 438);
+            this.NuevoButton.Location = new System.Drawing.Point(184, 321);
             this.NuevoButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.NuevoButton.Name = "NuevoButton";
             this.NuevoButton.Size = new System.Drawing.Size(128, 36);
@@ -94,7 +96,7 @@ namespace ProyectoGrupo4.Vistas
             // 
             // ModificarButton
             // 
-            this.ModificarButton.Location = new System.Drawing.Point(259, 438);
+            this.ModificarButton.Location = new System.Drawing.Point(320, 321);
             this.ModificarButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.ModificarButton.Name = "ModificarButton";
             this.ModificarButton.Size = new System.Drawing.Size(128, 36);
@@ -105,7 +107,7 @@ namespace ProyectoGrupo4.Vistas
             // DireccionTextBox
             // 
             this.DireccionTextBox.Enabled = false;
-            this.DireccionTextBox.Location = new System.Drawing.Point(185, 238);
+            this.DireccionTextBox.Location = new System.Drawing.Point(597, 89);
             this.DireccionTextBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.DireccionTextBox.Name = "DireccionTextBox";
             this.DireccionTextBox.Size = new System.Drawing.Size(327, 28);
@@ -114,7 +116,7 @@ namespace ProyectoGrupo4.Vistas
             // CorreoTextBox
             // 
             this.CorreoTextBox.Enabled = false;
-            this.CorreoTextBox.Location = new System.Drawing.Point(185, 180);
+            this.CorreoTextBox.Location = new System.Drawing.Point(125, 196);
             this.CorreoTextBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.CorreoTextBox.Name = "CorreoTextBox";
             this.CorreoTextBox.Size = new System.Drawing.Size(327, 28);
@@ -123,7 +125,7 @@ namespace ProyectoGrupo4.Vistas
             // NombreTextBox
             // 
             this.NombreTextBox.Enabled = false;
-            this.NombreTextBox.Location = new System.Drawing.Point(185, 127);
+            this.NombreTextBox.Location = new System.Drawing.Point(125, 143);
             this.NombreTextBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.NombreTextBox.Name = "NombreTextBox";
             this.NombreTextBox.Size = new System.Drawing.Size(327, 28);
@@ -131,7 +133,7 @@ namespace ProyectoGrupo4.Vistas
             // 
             // IdTextBox
             // 
-            this.IdTextBox.Location = new System.Drawing.Point(185, 24);
+            this.IdTextBox.Location = new System.Drawing.Point(125, 40);
             this.IdTextBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.IdTextBox.Name = "IdTextBox";
             this.IdTextBox.ReadOnly = true;
@@ -141,7 +143,7 @@ namespace ProyectoGrupo4.Vistas
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(59, 245);
+            this.label5.Location = new System.Drawing.Point(471, 96);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(86, 21);
@@ -151,7 +153,7 @@ namespace ProyectoGrupo4.Vistas
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(81, 186);
+            this.label4.Location = new System.Drawing.Point(21, 202);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(65, 21);
@@ -161,7 +163,7 @@ namespace ProyectoGrupo4.Vistas
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(71, 133);
+            this.label3.Location = new System.Drawing.Point(11, 149);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(76, 21);
@@ -171,7 +173,7 @@ namespace ProyectoGrupo4.Vistas
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(57, 80);
+            this.label2.Location = new System.Drawing.Point(-3, 96);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(87, 21);
@@ -181,7 +183,7 @@ namespace ProyectoGrupo4.Vistas
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(119, 30);
+            this.label1.Location = new System.Drawing.Point(59, 46);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(30, 21);
@@ -192,17 +194,17 @@ namespace ProyectoGrupo4.Vistas
             // 
             this.ClienteDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.ClienteDataGridView.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.ClienteDataGridView.Location = new System.Drawing.Point(0, 504);
+            this.ClienteDataGridView.Location = new System.Drawing.Point(0, 595);
             this.ClienteDataGridView.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.ClienteDataGridView.Name = "ClienteDataGridView";
             this.ClienteDataGridView.RowHeadersWidth = 62;
             this.ClienteDataGridView.RowTemplate.Height = 28;
-            this.ClienteDataGridView.Size = new System.Drawing.Size(1047, 173);
+            this.ClienteDataGridView.Size = new System.Drawing.Size(1047, 82);
             this.ClienteDataGridView.TabIndex = 39;
             // 
             // maskedTextBox1
             // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(185, 73);
+            this.maskedTextBox1.Location = new System.Drawing.Point(125, 89);
             this.maskedTextBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.maskedTextBox1.Mask = "####-####-#####";
             this.maskedTextBox1.Name = "maskedTextBox1";
@@ -212,7 +214,7 @@ namespace ProyectoGrupo4.Vistas
             // EdadTextBox
             // 
             this.EdadTextBox.Enabled = false;
-            this.EdadTextBox.Location = new System.Drawing.Point(185, 293);
+            this.EdadTextBox.Location = new System.Drawing.Point(597, 144);
             this.EdadTextBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.EdadTextBox.Name = "EdadTextBox";
             this.EdadTextBox.Size = new System.Drawing.Size(327, 28);
@@ -221,7 +223,7 @@ namespace ProyectoGrupo4.Vistas
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(93, 299);
+            this.label6.Location = new System.Drawing.Point(505, 150);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(51, 21);
@@ -231,7 +233,7 @@ namespace ProyectoGrupo4.Vistas
             // GeneroTextBox
             // 
             this.GeneroTextBox.Enabled = false;
-            this.GeneroTextBox.Location = new System.Drawing.Point(185, 355);
+            this.GeneroTextBox.Location = new System.Drawing.Point(597, 206);
             this.GeneroTextBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.GeneroTextBox.Name = "GeneroTextBox";
             this.GeneroTextBox.Size = new System.Drawing.Size(327, 28);
@@ -240,33 +242,43 @@ namespace ProyectoGrupo4.Vistas
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(73, 361);
+            this.label7.Location = new System.Drawing.Point(485, 212);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(69, 21);
             this.label7.TabIndex = 43;
             this.label7.Text = "Genero";
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.IdTextBox);
+            this.groupBox1.Controls.Add(this.GeneroTextBox);
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.label7);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.EdadTextBox);
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.label6);
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.maskedTextBox1);
+            this.groupBox1.Controls.Add(this.label5);
+            this.groupBox1.Controls.Add(this.NombreTextBox);
+            this.groupBox1.Controls.Add(this.DireccionTextBox);
+            this.groupBox1.Controls.Add(this.CorreoTextBox);
+            this.groupBox1.Location = new System.Drawing.Point(31, 31);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(971, 265);
+            this.groupBox1.TabIndex = 45;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Datos Cliente";
+            // 
             // ClienteView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1047, 677);
-            this.Controls.Add(this.GeneroTextBox);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.EdadTextBox);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.maskedTextBox1);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.ClienteDataGridView);
-            this.Controls.Add(this.DireccionTextBox);
-            this.Controls.Add(this.CorreoTextBox);
-            this.Controls.Add(this.NombreTextBox);
-            this.Controls.Add(this.IdTextBox);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.CancelarButton);
             this.Controls.Add(this.EliminarButton);
             this.Controls.Add(this.GuardarButton);
@@ -278,8 +290,9 @@ namespace ProyectoGrupo4.Vistas
             this.Text = "Cliente";
             this.Load += new System.EventHandler(this.ClienteView_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ClienteDataGridView)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -305,5 +318,6 @@ namespace ProyectoGrupo4.Vistas
         private System.Windows.Forms.Label label6;
         public System.Windows.Forms.TextBox GeneroTextBox;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.GroupBox groupBox1;
     }
 }

@@ -121,11 +121,20 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Vistas\BoletoView.resx">
+      <DependentUpon>BoletoView.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Vistas\ClaseView.resx">
       <DependentUpon>ClaseView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Vistas\ClienteView.resx">
       <DependentUpon>ClienteView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\DestinoView.resx">
+      <DependentUpon>DestinoView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\GenerarBoletoView.resx">
+      <DependentUpon>GenerarBoletoView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Vistas\LoginView.resx">
       <DependentUpon>LoginView.cs</DependentUpon>
